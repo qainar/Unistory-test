@@ -1,0 +1,47 @@
+.container{
+}
+.container h1{
+    text-align: center;
+}
+.list{
+    margin: 30px auto;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+.item{
+    width: 30%;
+}
+.item h4{
+    text-align: center;
+}
+.item div{
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px 0;
+}
+.item a{
+    margin-top: 10px;
+    border: 1px solid blue;
+    background-color: #22c9f7;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 10px;
+    display: block;
+    color: black;
+}
+
+.add-post{
+    padding: 5px 10px;
+    background-color: #22c9f7;
+    color: black;
+    border: 1px solid blue;
+    display: inline-block;
+    float: right;
+    margin-top: 48px;
+}
